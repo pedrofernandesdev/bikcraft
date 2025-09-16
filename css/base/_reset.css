@@ -133,3 +133,9 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
