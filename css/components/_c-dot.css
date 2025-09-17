@@ -1,3 +1,4 @@
 .c-dot {
-  color: #ffbb00;
+  color: var(--color-p1);
 }
+ 

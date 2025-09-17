@@ -15,4 +15,6 @@ h4 {
 
 a {
   font-family: "Poppins", sans-serif;
+  color: inherit;
+  text-decoration: none;
 }

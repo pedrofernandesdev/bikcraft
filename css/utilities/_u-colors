@@ -1,0 +1,73 @@
+/* Paleta de tons de cinza */
+.u-color-0 {
+  color: var(--color-0);
+}
+
+.u-color-1 {
+  color: var(--color-1);
+}
+
+.u-color-2 {
+  color: var(--color-2);
+}
+
+.u-color-3 {
+  color: var(--color-3);
+}
+
+.u-color-4 {
+  color: var(--color-4);
+}
+
+.u-color-5 {
+  color: var(--color-5);
+}
+
+.u-color-6 {
+  color: var(--color-6);
+}
+
+.u-color-7 {
+  color: var(--color-7);
+}
+
+.u-color-8 {
+  color: var(--color-8);
+}
+
+.u-color-9 {
+  color: var(--color-9);
+}
+
+.u-color-10 {
+  color: var(--color-10);
+}
+
+.u-color-11 {
+  color: var(--color-11);
+}
+
+.u-color-12 {
+  color: var(--color-12);
+}
+
+/* Paleta de tons de marrom/laranja */
+.u-color-p1 {
+  color: var(--color-p1);
+}
+
+.u-color-p2 {
+  color: var(--color-p2);
+}
+
+.u-color-p3 {
+  color: var(--color-p3);
+}
+
+.u-color-p4 {
+  color: var(--color-p4);
+}
+
+.u-color-p5 {
+  color: var(--color-p5);
+}

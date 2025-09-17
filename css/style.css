@@ -1,20 +1,20 @@
 /* Base */
-@import url("/css/base/_generals.css");
 @import url("base/_reset.css");
 @import url("base/_typography.css");
 @import url("base/_variables.css");
 
 /* Components */
-@import url("/css/components/_header.css");
-@import url("/css/components/_button.css");
+@import url("/css/components/_c-header.css");
+@import url("/css/components/_c-button.css");
 @import url("components/_c-dot.css");
 
 /* Layouts */
-@import url("/css/layouts/_layout.css");
+@import url("/css/layouts/_l-layout.css");
 
 /* Sections */
 /* Home */
 @import url("sections/home/_hero.css");
 
 /* Utilities */
-@import url("utilities/_utilities.css");
+@import url("utilities/_u-typography.css");
+@import url("utilities/_u-colors");
