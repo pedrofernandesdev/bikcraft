@@ -1,21 +1,21 @@
 /* Base */
-@import url("base/_reset.css");
-@import url("base/_typography.css");
-@import url("base/_variables.css");
-@import url("base/_scroll-bar-generator.css");
+@import url("base/reset.css");
+@import url("base/typography.css");
+@import url("base/variables.css");
+@import url("base/scroll-bar-generator.css");
 
 /* Components */
-@import url("components/_c-header.css");
-@import url("components/_c-button.css");
-@import url("components/_c-bike-card.css");
+@import url("components/c-header.css");
+@import url("components/c-button.css");
+@import url("components/c-bike-card.css");
 
 /* Layouts */
-@import url("layouts/_l-layout.css");
+@import url("layouts/l-layout.css");
 
 /* Sections */
 /* Home */
-@import url("sections/home/_hero.css");
+@import url("sections/home/hero.css");
 
 /* Utilities */
-@import url("utilities/_u-typography.css");
-@import url("utilities/_u-colors.css");
+@import url("utilities/u-typography.css");
+@import url("utilities/u-colors.css");
