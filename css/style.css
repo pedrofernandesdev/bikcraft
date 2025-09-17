@@ -5,12 +5,12 @@
 @import url("base/_scroll-bar-generator.css");
 
 /* Components */
-@import url("/css/components/_c-header.css");
-@import url("/css/components/_c-button.css");
+@import url("components/_c-header.css");
+@import url("components/_c-button.css");
 @import url("components/_c-bike-card.css");
 
 /* Layouts */
-@import url("/css/layouts/_l-layout.css");
+@import url("layouts/_l-layout.css");
 
 /* Sections */
 /* Home */
