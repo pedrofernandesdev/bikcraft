@@ -124,8 +124,6 @@ table {
   border-spacing: 0;
 }
 
-
-
 * {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
@@ -135,4 +133,8 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
+}
+
+html {
+  color-scheme: light;
 }
