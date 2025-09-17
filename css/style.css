@@ -3,6 +3,7 @@
 @import url("base/typography.css");
 @import url("base/variables.css");
 @import url("base/scroll-bar-generator.css");
+@import url("base/normalize.css");
 
 /* Components */
 @import url("components/c-header.css");
