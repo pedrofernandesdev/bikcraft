@@ -2,11 +2,12 @@
 @import url("base/_reset.css");
 @import url("base/_typography.css");
 @import url("base/_variables.css");
+@import url("base/_scroll-bar-generator.css");
 
 /* Components */
 @import url("/css/components/_c-header.css");
 @import url("/css/components/_c-button.css");
-@import url("components/_c-dot.css");
+@import url("components/_c-bike-card.css");
 
 /* Layouts */
 @import url("/css/layouts/_l-layout.css");
@@ -17,4 +18,4 @@
 
 /* Utilities */
 @import url("utilities/_u-typography.css");
-@import url("utilities/_u-colors");
+@import url("utilities/_u-colors.css");
