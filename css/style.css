@@ -3,12 +3,12 @@
 @import url("base/typography.css");
 @import url("base/variables.css");
 @import url("base/scroll-bar-generator.css");
-@import url("base/normalize.css");
 
 /* Components */
 @import url("components/c-header.css");
 @import url("components/c-button.css");
 @import url("components/c-bike-card.css");
+@import url("components/c-link.css");
 
 /* Layouts */
 @import url("layouts/l-layout.css");
@@ -16,6 +16,7 @@
 /* Sections */
 /* Home */
 @import url("sections/home/hero.css");
+@import url("sections/home/technology.css");
 
 /* Utilities */
 @import url("utilities/u-typography.css");
