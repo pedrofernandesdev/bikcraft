@@ -11,6 +11,7 @@
 @import url("components/c-link.css");
 @import url("components/c-insurance.css");
 @import url("components/c-footer.css");
+@import url("components/c-title-page.css");
 
 /* Layouts */
 @import url("layouts/l-layout.css");
@@ -21,6 +22,8 @@
 @import url("sections/home/technology.css");
 @import url("sections/home/patners.css");
 @import url("sections/home/testimony.css");
+/*Termos*/
+@import url("sections/termos/termos.css");
 
 /* Utilities */
 @import url("utilities/u-typography.css");
