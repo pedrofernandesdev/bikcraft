@@ -20,8 +20,27 @@
   background-color: var(--color-10);
 }
 
-.c-btn.c-btn--secondary:hover{
+.c-btn.c-btn--secondary:hover {
   background-color: var(--color-9);
+}
+
+.c-btn.c-btn--arrow {
+  display: flex;
+  align-items: center;
+}
+
+.c-btn.c-btn--arrow::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  transition: .2s;
+}
+
+.c-btn.c-btn--arrow:hover::after {
+  transform: translateX(4px);
 }
 
 @media (max-width: 600px) {

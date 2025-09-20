@@ -22,7 +22,9 @@
 @import url("sections/home/technology.css");
 @import url("sections/home/patners.css");
 @import url("sections/home/testimony.css");
-/*Termos*/
+/* Bicicletas */
+@import url("sections/bicicletas/bibicletas.css");
+/* Termos */
 @import url("sections/termos/termos.css");
 
 /* Utilities */
