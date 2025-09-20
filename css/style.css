@@ -10,6 +10,7 @@
 @import url("components/c-bike-card.css");
 @import url("components/c-link.css");
 @import url("components/c-insurance.css");
+@import url("components/c-footer.css");
 
 /* Layouts */
 @import url("layouts/l-layout.css");
