@@ -34,7 +34,8 @@
 
 @media (max-width: 800px) {
   .patners__container {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0;
   }
 
   .patners__container h2 {
@@ -43,6 +44,10 @@
 
   .patners__list {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .patners__list li {
+    padding: 20px;
   }
 
   .patners__list li:nth-of-type(n + 3) {

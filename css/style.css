@@ -18,6 +18,7 @@
 @import url("sections/home/hero.css");
 @import url("sections/home/technology.css");
 @import url("sections/home/patners.css");
+@import url("sections/home/testimony.css");
 
 /* Utilities */
 @import url("utilities/u-typography.css");
