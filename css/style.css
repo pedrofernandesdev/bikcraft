@@ -28,6 +28,7 @@
 @import url("sections/termos/termos.css");
 /* Seguros */
 @import url("sections/seguros/advantages.css");
+@import url("sections/seguros/questions.css");
 
 /* Utilities */
 @import url("utilities/u-typography.css");
