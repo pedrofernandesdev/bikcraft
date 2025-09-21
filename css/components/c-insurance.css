@@ -1,3 +1,7 @@
+#insurance .c-insurance__container {
+  padding-top: 0;
+}
+
 .c-insurance {
   background-color: var(--color-11);
 }
