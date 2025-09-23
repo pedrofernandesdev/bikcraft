@@ -10,6 +10,10 @@
   padding: 0 20px;
 }
 
+#bicycle .c-bike-list__content {
+  padding: 0 0 20px 0;
+}
+
 .c-bike-list__content a:hover .c-bike-list__detail {
   width: 24px;
 }
