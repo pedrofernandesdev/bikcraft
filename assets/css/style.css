@@ -23,7 +23,9 @@
 @import url("sections/home/patners.css");
 @import url("sections/home/testimony.css");
 /* Bicicletas */
-@import url("sections/bicicletas/bibicletas.css");
+@import url("sections/bicicletas/bicycles.css");
+/* Bicicleta */
+@import url("sections/bicicleta/bicycle.css");
 /* Termos */
 @import url("sections/termos/termos.css");
 /* Seguros */
