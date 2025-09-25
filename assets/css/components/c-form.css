@@ -1,0 +1,44 @@
+.c-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 20px;
+}
+
+.c-form label {
+  display: block;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+.c-form input[type="text"],
+.c-form input[type="number"],
+.c-form input[type="email"],
+.c-form textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background-color: var(--color-1);
+  border: 1px solid var(--color-2);
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+
+input:focus,
+textarea {
+  outline: none;
+  border-color: var(--color-p1);
+  background-color: var(--color-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+@media(max-width: 600px){
+  .c-form{
+    grid-template-columns: 1fr;
+  }
+
+  .c-form .u-col-2{
+    grid-column: 1;
+  }
+}
