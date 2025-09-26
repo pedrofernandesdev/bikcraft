@@ -33,7 +33,8 @@
 
 .budget-form__product {
   border-radius: 5px 0 0 5px;
-  background-color: var(--color-12);
+  background: var(--color-12) url("../../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
@@ -125,7 +126,8 @@
 
 .budget-form__data {
   border-radius: 0 5px 5px 0;
-  background-color: var(--color-0);
+  background: var(--color-0) url("../../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
 }
 
 .budget-form__details {
@@ -152,34 +154,35 @@
   display: grid;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .budget-form__product,
-  .budget-form__data{
+  .budget-form__data {
     padding: 32px;
   }
 }
 
-@media (max-width: 800px){
-  .budget-form{
+@media (max-width: 800px) {
+  .budget-form {
     grid-template-columns: 1fr;
   }
 
-  .budget-form__product{
+  .budget-form__product {
     border-radius: 5px 5px 0 0;
+    background: var(--color-12);
   }
 
-  .budget-form__data{
+  .budget-form__data {
     border-radius: 0 0 5px 5px;
   }
 }
 
-@media (max-width: 400px){
-  .budget-form__product{
+@media (max-width: 400px) {
+  .budget-form__product {
     display: flex;
     flex-direction: column;
   }
 
-  .budget-form__details{
+  .budget-form__details {
     grid-template-columns: 1fr;
   }
 }

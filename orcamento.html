@@ -7,6 +7,7 @@
   <meta name="description" content="Orçamento.">
   <meta name="author" content="Pedro Fernandes">
   <meta name="keywords" content="Bicicletas, Bikcraft, Eléticas">
+  <link rel="preload" href="assets/css/style.css" as="style">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,17 +46,17 @@
 
 
 
-          <input type="radio" name="type" value="bikcraft" id="bikcraft" checked>
-          <label for="bikcraft">Bikcraft</label>
+        <input type="radio" name="type" value="bikcraft" id="bikcraft" checked>
+        <label for="bikcraft">Bikcraft</label>
 
 
-          <input type="radio" name="type" value="insurance" id="insurance">
-          <label for="insurance">Seguro</label>
+        <input type="radio" name="type" value="insurance" id="insurance">
+        <label for="insurance">Seguro</label>
 
 
         <div class="budget-form__content" id="budget-form__bikcraft">
           <h2 class="u-font-1-xs u-color-5">Escolha a sua: </h2>
-          <input type="radio" name="product" value="nimbus" id="nimbus" checked>
+          <input type="radio" name="product" value="nimbus" id="nimbus">
           <label for="nimbus">Nimbus Stark <span>R$ 4999</span></label>
           <div class="budget-form__details">
             <ul class="u-font-1-xs u-color-8">
@@ -69,7 +70,7 @@
 
           <input type="radio" name="product" value="Magic" id="Magic">
           <label for="Magic">Magic Might <span>R$ 2499</span></label>
-           <div class="budget-form__details">
+          <div class="budget-form__details">
             <ul class="u-font-1-xs u-color-8">
               <li><img src="assets/img/icones/eletrica.svg" alt="">Motor Elétrico</li>
               <li><img src="assets/img/icones/carbono.svg" alt="">Fibra de Carbono</li>
@@ -81,7 +82,7 @@
 
           <input type="radio" name="product" value="Nebula" id="Nebula">
           <label for="Nebula">Nebula Cosmic <span>R$ 3999</span></label>
-           <div class="budget-form__details">
+          <div class="budget-form__details">
             <ul class="u-font-1-xs u-color-8">
               <li><img src="assets/img/icones/eletrica.svg" alt="">Motor Elétrico</li>
               <li><img src="assets/img/icones/carbono.svg" alt="">Fibra de Carbono</li>
@@ -145,7 +146,7 @@
         </div>
 
         <div class="c-form__item">
-          <label for="state">Cidade</label>
+          <label for="state">Estado</label>
           <select name="state" id="state"></select>
         </div>
         <div class="c-form__item u-col-2">

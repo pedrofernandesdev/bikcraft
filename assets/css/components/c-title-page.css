@@ -4,6 +4,10 @@
   padding-bottom: 60px;
 }
 
+.c-title-page__container{
+  background: url("../../../assets/img/dec/top-right.svg") no-repeat top right 20px;
+}
+
 .c-title-page p {
   margin-bottom: 8px;
 }

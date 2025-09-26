@@ -52,7 +52,7 @@ select:focus {
   background: var(--color-1);
 }
 
-.c-form .c-form__item:last-of-type {
+#budget .c-form .c-form__item:last-of-type {
   display: flex;
   align-items: center;
   gap: 12px;

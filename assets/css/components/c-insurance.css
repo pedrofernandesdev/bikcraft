@@ -3,7 +3,9 @@
 }
 
 .c-insurance {
-  background-color: var(--color-11);
+  background: var(--color-11)
+   url("../../../assets/img/dec/bottom-left.svg")
+    no-repeat bottom 20px left 20px;
 }
 
 .c-insurance__container {

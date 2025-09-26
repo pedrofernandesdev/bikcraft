@@ -14,6 +14,7 @@
 .testimony__content {
   padding: 40px 40px 80px 80px;
   align-self: flex-end;
+  background: url("../../../img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px;
 }
 
 .testimony__content blockquote {
@@ -43,6 +44,12 @@
 
 .testimony__content blockquote p::after {
   content: "”";
+}
+
+@media (min-width: 1200px){
+  .testimony__image img{
+    max-height: 530px;
+  }
 }
 
 @media (max-width: 800px) {
