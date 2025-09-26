@@ -14,7 +14,9 @@
 .c-form input[type="text"],
 .c-form input[type="number"],
 .c-form input[type="email"],
-.c-form textarea {
+.c-form textarea,
+.c-form select,
+.c-form input[type="checkbox"] {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background-color: var(--color-1);
   border: 1px solid var(--color-2);
@@ -23,22 +25,45 @@
   width: 100%;
 }
 
+.c-form input[type="checkbox"] {
+  width: 32px;
+  height: 32px;
+}
 
+textarea {
+  resize: none;
+}
 
 input:focus,
-textarea {
+textarea:focus,
+select:focus {
   outline: none;
   border-color: var(--color-p1);
   background-color: var(--color-0);
   box-shadow: 0 0 0 2px #fea;
 }
 
-@media(max-width: 600px){
-  .c-form{
+.c-form input[type="checkbox"]:focus{
+  border-color: var(--color-1);
+  box-shadow: none;
+}
+
+select:focus {
+  background: var(--color-1);
+}
+
+.c-form .c-form__item:last-of-type {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 600px) {
+  .c-form {
     grid-template-columns: 1fr;
   }
 
-  .c-form .u-col-2{
+  .c-form .u-col-2 {
     grid-column: 1;
   }
 }
