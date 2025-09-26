@@ -173,6 +173,7 @@
 
   .budget-form__data {
     border-radius: 0 0 5px 5px;
+    background: var(--color-0);
   }
 }
 
