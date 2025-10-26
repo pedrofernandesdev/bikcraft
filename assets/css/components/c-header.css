@@ -35,7 +35,8 @@
   position: absolute;
 }
 
-.header__itens-list a:hover::after {
+.header__itens-list a:hover::after,
+.header__itens-list a.isActive::after {
   width: 100%;
 }
 
