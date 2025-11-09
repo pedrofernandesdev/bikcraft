@@ -44,3 +44,17 @@ function eventosPerguntas(pergunta){
 }
 
 questions.forEach(eventosPerguntas);
+
+// Galeria de bicicletas
+const galeria = document.querySelectorAll('.bicycle__image img');
+const galeriaContainer = document.querySelector('.bicycle__image');
+
+galeria.forEach((img) => {
+  img.addEventListener('click', (event) => {
+    const img = event.currentTarget;
+    const media = matchMedia('(min-width: 1000px)').matches;
+    if(media){
+      galeriaContainer.prepend(img)
+    }
+  })
+})
